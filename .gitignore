@@ -15,9 +15,8 @@ env/
 .idea/
 
 # Checkpoints
-checkpoint/
-*.pth
-*.tar
+checkpoint/*.pth
+checkpoint/*.tar
 
 # Logs
 *.log

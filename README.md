@@ -186,12 +186,7 @@ python draw_curve.py
 If you find this work useful for your research, please consider citing:
 
 ```bibtex
-@article{CRTFS2024,
-  title={CRTFS: Cross-Resolution Transformer Fusion Network for RGB-D Salient Object Detection},
-  author={Author Name and Author Name},
-  journal={Conference/Journal Name},
-  year={2024}
-}
+
 ```
 
 ## 🙏 Acknowledgments
