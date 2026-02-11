@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Conda
+env/
+*.yaml
+
+# VSCode
+.vscode/
+
+# Pycharm
+.idea/
+
+# Checkpoints
+checkpoint/
+*.pth
+*.tar
+
+# Logs
+*.log
+loss.txt
+
+# OS
+.DS_Store
+Thumbs.db
