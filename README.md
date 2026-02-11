@@ -194,7 +194,7 @@ If you find this work useful for your research, please consider citing:
 ## 🙏 Acknowledgments
 
 - This project builds upon [T2T-ViT](https://github.com/yitu-opensource/T2T-ViT)
-- Evaluation metrics from [SOD_Evaluation_Metrics](https://github.com/lartpang/SOD_Evaluation_Metrics)
+- Evaluation metrics from [SOD_Evaluation_Metrics](https://github.com/zyjwuyan/SOD_Evaluation_Metrics)
 - Thanks to all open-source contributors in the computer vision community
 
 ## 📄 License
