@@ -1,4 +1,4 @@
-# CRTFS: Cross-Resolution Transformer Fusion Network for RGB-D Salient Object Detection
+# CRTFS: Color-information-driven network for RGB-T SOD and Image Fusion
 
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.9.0%2B-red)](https://pytorch.org/)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
