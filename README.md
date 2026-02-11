@@ -4,12 +4,12 @@
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-CRTFS (Cross-Resolution Transformer Fusion Network) is a state-of-the-art RGB-D salient object detection model that effectively fuses RGB and depth information through a novel transformer-based architecture. The model achieves high performance on multiple RGB-D SOD benchmarks.
+The official implementation of "A Color Information Driven Collaborative Training of Dual Task Parallel Network for Visible and Thermal Infrared Image Fusion and Saliency Object Detection" (IJCV 2026)
 
 ## ✨ Key Features
 
 - **Dual-Encoder Architecture**: Combines Vision Transformer (T2T-ViT) for global feature extraction and CNN for local feature extraction
-- **Cross-Modal Fusion**: Effective fusion of RGB, depth, and color (YCbCr) information
+- **Cross-Modal Fusion**: Effective fusion of RGB, Thermal Infrared, and color (YCbCr) information
 - **Multi-Scale Processing**: Handles features at multiple resolutions (1/1, 1/4, 1/8, 1/16)
 - **Comprehensive Evaluation**: Supports all major SOD evaluation metrics (S-measure, F-measure, E-measure, MAE, etc.)
 - **Pretrained Models**: Includes pretrained weights for immediate inference
@@ -22,8 +22,6 @@ CRTFS (Cross-Resolution Transformer Fusion Network) is a state-of-the-art RGB-D 
 - [Training](#training)
 - [Testing](#testing)
 - [Evaluation](#evaluation)
-- [Model Architecture](#model-architecture)
-- [Project Structure](#project-structure)
 - [Citation](#citation)
 
 ## 🚀 Installation
@@ -37,7 +35,7 @@ CRTFS (Cross-Resolution Transformer Fusion Network) is a state-of-the-art RGB-D 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/CRTFS.git
+   git clone https://github.com/Yukarizz/CRTFS.git
    cd CRTFS
    ```
 
@@ -205,16 +203,6 @@ If you find this work useful for your research, please consider citing:
 ## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ## 📧 Contact
 
