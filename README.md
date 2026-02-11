@@ -82,8 +82,10 @@ data/
 ### Inference with Pretrained Model
 
 1. **Download pretrained weights** (already included in `checkpoint/`):
-   - `CRTFS.pth` (436MB): Main model weights
-   - `80.7_T2T_ViT_t_14.pth.tar` (86MB): Pretrained T2T-ViT backbone
+   - `CRTFS.pth` (436MB): Main model weights 
+🔗 **[Google Drive](https://drive.google.com/file/d/14YXYd5Eb2RB2THxvyjYTtVFAahDS-A5K/view?usp=drive_link)**
+
+   - `80.7_T2T_ViT_t_14.pth.tar` (86MB): Pretrained T2T-ViT backbone 🔗 **[Google Drive](https://drive.google.com/file/d/1rflWMNrdYZay71TUYQDR-og5yhXXE9ps/view?usp=drive_link)**
 
 2. **Run inference on your data**:
    ```bash
